@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31727.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VirtualSpaces.WEB", "VirtualSpaces.WEB\VirtualSpaces.WEB.csproj", "{C41F01CB-E5CC-4990-80FF-F40EC2EFF8C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualSpaces.API", "VirtualSpaces.API\VirtualSpaces.API.csproj", "{63119334-48AD-4FA6-8F50-F873EFD17E78}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C41F01CB-E5CC-4990-80FF-F40EC2EFF8C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C41F01CB-E5CC-4990-80FF-F40EC2EFF8C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C41F01CB-E5CC-4990-80FF-F40EC2EFF8C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C41F01CB-E5CC-4990-80FF-F40EC2EFF8C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63119334-48AD-4FA6-8F50-F873EFD17E78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63119334-48AD-4FA6-8F50-F873EFD17E78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63119334-48AD-4FA6-8F50-F873EFD17E78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63119334-48AD-4FA6-8F50-F873EFD17E78}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB7738C8-2A0C-49E0-AA25-FBA8FE1C1A52}
+	EndGlobalSection
+EndGlobal
