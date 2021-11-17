@@ -1,7 +1,7 @@
 # VirtualSpacesPoC
 A sample app showing a Web App calling a protected Web API that calls Graph API on behalf of the signed in user
 
-#### Configure Known Client Applications for service (TodoListService(ms-identity-dotnet-native-aspnetcore-v2))
+#### Configure Known Client Applications for service (`VirtualSpaces.API`)
 
 For a middle tier Web API (`VirtualSpaces.API`) to be able to call a downstream Web API (`Graph API`), the middle tier app needs to be granted the required permissions as well.
 However, since the middle tier cannot interact with the signed-in user, it needs to be explicitly bound to the client app in its Azure AD registration.
